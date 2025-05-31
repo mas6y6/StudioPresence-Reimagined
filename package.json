@@ -1,0 +1,16 @@
+{
+  "name": "studiopresence",
+  "version": "1.0.0",
+  "description": "A discord rich presence to show what you are working on in roblox studio",
+  "main": "src/server/main.js",
+  "scripts": {
+    "start": "node src/server/main.js",
+    "build:client": "node scripts/buildClient.js"
+  },
+  "author": "mas6y6",
+  "license": "ISC",
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "studiopresence": "file:"
+  }
+}
